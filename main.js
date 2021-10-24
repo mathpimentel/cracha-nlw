@@ -6,9 +6,6 @@ const LinksSocialMedia = {
   twitter: '__Kmpos'
 }
 
-// document.getElementById('userName').textContent = 'Paulo' - forma completa
-// userName.textContent = 'Rafaela' - forma simplificada
-
 function changeSocialMediaLinks() {
   for (let li of socialLinks.children) {
     const social = li.getAttribute('class')
